@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.24)
+cmake_minimum_required(VERSION 3.5)
 project(example)
 
 # you may need these 2 lines, and set your own paths
