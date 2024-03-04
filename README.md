@@ -1,21 +1,9 @@
 # try_pybind11
 
-第一步，下载pybind11的源代码到你的项目根目录的extern下面，可以用下面的命令
-```
-https://github.com/pybind/pybind11.git extern/pybind11
-```
+本仓库为HexUp的pybind11极简教程视频系列的对应代码，每一个step x文件夹对应B站上一集视频。
 
-第二步，运行cmake和make
-```
-mkdir build
-cd build
-cmake ..
-make
-```
+视频第一集地址：https://www.bilibili.com/video/BV1jr421W71p/
 
-第三步，在python中测试使用，进入build文件夹
-```
-python
-import example
-example.add(1,1)
-```
+为了方便分步学习，每一个step x是互相对立的，互不影响。
+
+编译应当在各自的子文件夹内进行。每一个step x内的README.md是对应的操作步骤。
